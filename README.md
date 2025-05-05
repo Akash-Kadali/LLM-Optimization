@@ -1,6 +1,6 @@
 # ⚙️ LLM Optimization Project – 🌐 Text Summarizer Web App (English & Chinese)
 
-Welcome to our **LLM Optimization Project**! This repository contains a lightweight, research-oriented **Flask web application** built to demonstrate how **Large Language Models (LLMs)** like **T5** can be integrated and optimized for **multilingual text summarization**, currently supporting **English** and **Chinese** outputs via Google Translate.
+Welcome to our **LLM Optimization Project**! This repository contains a lightweight, research-oriented **Flask web application** built to demonstrate how **Large Language Models (LLMs)** like **T5** can be integrated and optimized for **multilingual text summarization**, currently supporting **English** and **Chinese** outputs via Google Translate
 
 ---
 
