@@ -1,52 +1,65 @@
-Here’s the **revised README** with **only English and Chinese** support mentioned and unnecessary references to Hindi removed:
+# ⚙️ LLM Optimization Project – 🌐 Text Summarizer Web App (English & Chinese)
 
----
-
-# 🌐 Text Summarizer Web App (English & Chinese)
-
-Welcome to the Text Summarizer web app! This project contains the code for a **Flask-based** application that performs **text summarization** using the **T5 Transformer model**, with optional output in **English** or **Chinese** via Google Translate.
+Welcome to our **LLM Optimization Project**! This repository contains a lightweight, research-oriented **Flask web application** built to demonstrate how **Large Language Models (LLMs)** like **T5** can be integrated and optimized for **multilingual text summarization**, currently supporting **English** and **Chinese** outputs via Google Translate.
 
 ---
 
 ### 📥 Input (English)
 
+<!-- Add screenshot or example text here -->
 
 ### 📤 Output (English)
 
+<!-- Add screenshot or example text here -->
+
 ### 📥 Input (Chinese)
 
-
+<!-- Add screenshot or example text here -->
 
 ### 📤 Output (Chinese)
 
+<!-- Add screenshot or example text here -->
 
 ---
 
 ## 🧠 Overview
 
-The core of the app (`app.py`) integrates:
+This app is part of a broader initiative to **optimize LLMs for deployment** on limited-resource environments and to explore multilingual performance. Key components:
 
-* ✅ **Flask** for the web backend
-* ✅ **T5 transformer** for abstractive summarization
-* ✅ **Google Translate API** for output in Chinese (if selected)
+* ✅ **Flask**: Web backend framework
+* ✅ **T5 Transformer**: Abstractive summarization engine
+* ✅ **Google Translate API**: Enables cross-language summarization
 
-Users can enter text, select between English or Chinese, and receive a condensed version of the content in the selected language.
+The app allows users to input text, choose between English and Chinese, and receive a concise summary in their preferred language. It provides a minimal and modifiable interface for LLM experimentation.
+
+---
+
+## 🔬 LLM Optimization Direction (Coming Soon)
+
+This project is evolving toward:
+
+* 🧪 Hyperparameter tuning using **Katib/Kubeflow**
+* 🐳 Containerization with **Docker**
+* ☁️ Cloud deployment via **Kubernetes** or **Render**
+* ⚡ Experiment tracking and optimization for **latency, memory**, and **quality**
+
+Stay tuned for updates on integrating **low-resource models**, **distillation**, and **quantization** techniques.
 
 ---
 
 ## ⚙️ Installation
 
-Install the required packages using:
+Install required dependencies:
 
 ```bash
 pip install Flask transformers googletrans==4.0.0-rc1
 ```
 
-> ⚠️ Be sure to use `googletrans==4.0.0-rc1` for stable translation support.
+> ⚠️ Ensure you use `googletrans==4.0.0-rc1` to avoid bugs.
 
 ---
 
-## 🚀 Usage
+## 🚀 Local Usage
 
 1. Navigate to the project directory:
 
@@ -54,32 +67,26 @@ pip install Flask transformers googletrans==4.0.0-rc1
 cd Desktop/Text-Summarizer-main
 ```
 
-2. Start the Flask app:
+2. Run the app:
 
 ```bash
 python app.py
 ```
 
-3. Open your browser and visit:
+3. Open in browser:
 
 ```
 http://localhost:5000
 ```
 
-4. Enter text, select language (English/Chinese), and click **Summarize**.
+4. Enter your text, choose a language (English/Chinese), and click **Summarize**.
 
 ---
 
 ## 🙏 Acknowledgments
 
-This project uses:
-
-* 🤖 [T5 Transformer](https://huggingface.co/t5-small) from HuggingFace
+* 🤖 [T5 Model](https://huggingface.co/t5-small) from Hugging Face
 * 🌐 Google Translate API
-* 🧪 Flask for web hosting
+* 🧪 Flask for backend interface
 
-> ⚠️ This app runs in **debug mode**. Disable it before deploying to production.
-
----
-
-Would you like me to also rewrite the HTML to remove Hindi references or clean up the `app.py` logic to support just English/Chinese?
+> ⚠️ The app is in **debug mode**. Please disable it before production deployment.
