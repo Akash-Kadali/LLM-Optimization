@@ -6,11 +6,11 @@ Welcome to our **LLM Optimization Project**! This repository contains a lightwei
 
 ### 📥 Input (English)
 
-![Input Screenshot](input.png)
+![Input Screenshot](assets/input.png)
 
 ### 📤 Output (English)
 
-![Output Screenshot](output.png)
+![Output Screenshot](assets/output.png)
 
 ### 📥 Input (Chinese)
 
