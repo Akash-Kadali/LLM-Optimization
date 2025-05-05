@@ -1,51 +1,85 @@
+Here’s the **revised README** with **only English and Chinese** support mentioned and unnecessary references to Hindi removed:
 
-# Text Summarizer Web App
+---
 
-Welcome to the Text Summarizer web app project! This repository houses the code for a Flask-based web application designed for text summarization using the T5 transformer model. Below is an overview of the project and instructions on how to use and run the application.
-### Input
-![Screenshot 2024-01-28 at 1 13 46 PM](https://github.com/ananyamanjunath/Text-Summarizer/assets/109954683/1de18e26-811d-4df0-b0fc-057abb602414)
-### Output (English)
-![Screenshot 2024-01-28 at 1 13 38 PM](https://github.com/ananyamanjunath/Text-Summarizer/assets/109954683/89e7a444-ac25-4ea7-9f4a-c75cd0ef483f)
-### Input
-![Screenshot 2024-01-28 at 1 13 54 PM](https://github.com/ananyamanjunath/Text-Summarizer/assets/109954683/a7df899c-d442-4e40-ae18-659651ca4fea)
-### Output (Hindi)
-![Screenshot 2024-01-28 at 1 14 07 PM](https://github.com/ananyamanjunath/Text-Summarizer/assets/109954683/a7cf9ee8-3239-41b1-ac4f-25593a206adf)
+# 🌐 Text Summarizer Web App (English & Chinese)
 
-## Overview
+Welcome to the Text Summarizer web app! This project contains the code for a **Flask-based** application that performs **text summarization** using the **T5 Transformer model**, with optional output in **English** or **Chinese** via Google Translate.
 
-The main file, `app.py`, serves as the core of the web application, integrating Flask, the T5 transformer model, and the Google Translate API. Users can input text and choose the language for summarization, receiving concise summaries in their preferred language. The project also includes HTML templates for the main and result pages, along with a CSS file for styling.
+---
 
-## Installation
+### 📥 Input (English)
 
-To run the web app, ensure you have the required dependencies installed. You can install them using the following command:
+
+### 📤 Output (English)
+
+### 📥 Input (Chinese)
+
+
+
+### 📤 Output (Chinese)
+
+
+---
+
+## 🧠 Overview
+
+The core of the app (`app.py`) integrates:
+
+* ✅ **Flask** for the web backend
+* ✅ **T5 transformer** for abstractive summarization
+* ✅ **Google Translate API** for output in Chinese (if selected)
+
+Users can enter text, select between English or Chinese, and receive a condensed version of the content in the selected language.
+
+---
+
+## ⚙️ Installation
+
+Install the required packages using:
 
 ```bash
-pip install Flask transformers googletrans
+pip install Flask transformers googletrans==4.0.0-rc1
 ```
 
-## Usage
+> ⚠️ Be sure to use `googletrans==4.0.0-rc1` for stable translation support.
 
-1.  Clone this repository:
+---
+
+## 🚀 Usage
+
+1. Navigate to the project directory:
 
 ```bash
-git clone https://github.com/ananyamanjunath/Text-Summarizer.git
-cd Text-Summarizer
-
+cd Desktop/Text-Summarizer-main
 ```
 
-2.  Run the Flask application:
+2. Start the Flask app:
 
 ```bash
 python app.py
 ```
 
-3.  Open your web browser and go to http://localhost:5000/ to access the Text Summarizer web app.
-    
-4.  Choose the language for summarization, enter your text in the provided text area, submit the form, and view the summarization result.
-    
+3. Open your browser and visit:
 
-## Acknowledgments
+```
+http://localhost:5000
+```
 
-This web app leverages Flask for web development, the T5 transformer model for text summarization, and the Google Translate API for language translation. Feel free to explore and customize the code to suit your requirements.
+4. Enter text, select language (English/Chinese), and click **Summarize**.
 
-Please note that the web app is currently set to run in debug mode. Ensure that it meets your security and deployment standards before deploying it in a production environment.
+---
+
+## 🙏 Acknowledgments
+
+This project uses:
+
+* 🤖 [T5 Transformer](https://huggingface.co/t5-small) from HuggingFace
+* 🌐 Google Translate API
+* 🧪 Flask for web hosting
+
+> ⚠️ This app runs in **debug mode**. Disable it before deploying to production.
+
+---
+
+Would you like me to also rewrite the HTML to remove Hindi references or clean up the `app.py` logic to support just English/Chinese?
