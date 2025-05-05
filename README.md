@@ -1,10 +1,3 @@
-Here's your updated `README.md` section with the `input.png` and `output.png` images added under the **English Input/Output** parts. Make sure the images are located in the path `assets/input.png` and `assets/output.png` relative to your project root.
-
----
-
-### ✅ Modified README Snippet:
-
-````markdown
 # ⚙️ LLM Optimization Project – 🌐 Text Summarizer Web App (English & Chinese)
 
 Welcome to our **LLM Optimization Project**! This repository contains a lightweight, research-oriented **Flask web application** built to demonstrate how **Large Language Models (LLMs)** like **T5** can be integrated and optimized for **multilingual text summarization**, currently supporting **English** and **Chinese** outputs via Google Translate.
