@@ -10,7 +10,7 @@ Welcome to our **LLM Optimization Project**! This repository contains a lightwei
 
 ### 📤 Output (English)
 
-![Output Screenshot](assets/output.png)
+![Output Screenshot](assets/summaries.png)
 
 ### 📥 Input (Chinese)
 
