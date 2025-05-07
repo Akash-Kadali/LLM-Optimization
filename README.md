@@ -6,7 +6,7 @@ Welcome to our **LLM Optimization Project**, an end-to-end system for optimizing
 
 ### 📥 English Input
 
-![Input Screenshot](assets/input.png)
+![Input Screenshot](assets/para.png)
 
 ### 📤 Optimized Summary Output
 
